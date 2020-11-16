@@ -1,0 +1,14 @@
+.searchInput {
+    border: none;
+    height: 31.5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.submitBtn {
+    background-color: #BD081C;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: bold;
+    padding: 4px 6px 4px 6px
+}

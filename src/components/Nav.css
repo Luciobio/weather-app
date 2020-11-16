@@ -1,0 +1,18 @@
+.wheatherIcon {
+  margin-right: 20px;
+}
+
+.white-link {
+  transition: 0.15s;
+  color: white;
+  font-weight: bold
+}
+.white-link:hover {
+	text-shadow: 0 0 2px white;
+  color: white !important;
+  text-decoration:none
+}
+
+.navbar {
+  background-color: #E1A5A5;
+}

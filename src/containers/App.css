@@ -1,0 +1,15 @@
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/023/263/831/large/angela-jansen-mattepainting-sky-1.jpg?1578628919");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
