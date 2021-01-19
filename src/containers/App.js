@@ -7,7 +7,7 @@ import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
 
-const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
+const apiKey = '51e2dc925ad08fce8120a9847e04841d';
 
 function App() {
   const [cities, setCities] = useState([]);
