@@ -1,0 +1,9 @@
+.aboutCont {
+    padding: 2%;
+    margin: 3% 30% 30%;
+    max-width: 40%;
+    background-color: white;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5)
+}
