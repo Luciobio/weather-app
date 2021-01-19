@@ -41,7 +41,8 @@ function App() {
           } else {
           alert("Ciudad no encontrada");
         }
-      });
+      })
+    .catch(e => e.message);
   }
   function onFilter(ciudadId) {
     let ciudad = cities.filter(c => c.id === parseInt(ciudadId));
