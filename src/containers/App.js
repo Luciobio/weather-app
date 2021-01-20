@@ -36,10 +36,10 @@ function App() {
           if(!cities.some(city => city.id === ciudad.id)) {
             setCities(oldCities => [...oldCities, ciudad]);
           } else {
-            alert('Ciudad ya existente');
+            alert('City already displayed');
             }
           } else {
-          alert("Ciudad no encontrada");
+          alert("City not found");
         }
       })
       .catch(err => console.log(err));
