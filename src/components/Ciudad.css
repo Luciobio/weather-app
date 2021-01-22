@@ -8,6 +8,13 @@
     box-shadow: 0 5px 15px rgba(0,0,0,.5)
 }
 
+@media (max-width: 500px) {
+    .ciudad  {
+        margin: 3% 10% 10%;
+        max-width: 100%;
+    }
+  }
+
 .pinkBg {
     background-color: #FBC5D3;
     border-radius: 40px;

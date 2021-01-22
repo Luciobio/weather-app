@@ -7,3 +7,10 @@
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5)
 }
+
+@media (max-width: 500px) {
+    .aboutCont {
+        margin: 3% 10% 10%;
+        max-width: 100%;
+    }
+  }

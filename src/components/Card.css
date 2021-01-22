@@ -26,3 +26,18 @@
   border: none;
   font-weight: bolder;
 }
+
+.cardNum {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.minMax {
+  margin: 20%;
+}
+
