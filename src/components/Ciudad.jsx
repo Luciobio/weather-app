@@ -1,8 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Ciudad.css';
 
 export default function Ciudad({city}) {
-  if (!city) return <h2>Ciudad no encontrada</h2>;
+  if (!city) return (
+    <div>
+      <h2>City not found</h2>
+      <h4>Click <Link className="white-link" to='/'>here</Link> to go back</h4>
+    </div>
+  );
+  
   return (
     <div className="ciudad">
       <div className="container">
