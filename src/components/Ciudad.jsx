@@ -11,8 +11,8 @@ export default function Ciudad({city}) {
   );
   
   return (
-    <div className="ciudad">
-      <div className="container">
+    <div>
+      <div className="ciudad">
         <h2>{city.name}</h2>
         <h4>{city.weather}</h4>
         <img className="iconoClima pinkBg" src={"http://openweathermap.org/img/wn/"+city.img+"@2x.png"} width="80" height="80" alt="" />
@@ -36,6 +36,7 @@ export default function Ciudad({city}) {
             <div>Long.: {city.longitud}º</div>
           </div>
         </div>
-      </div>
+        <Link className="goBackBtn white-link" to='/'>Go back</Link>
+    </div>
   );
 }
